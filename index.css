@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent0{
+    height: 340px;
+    width:100%;
+    background-image: url('./sahara.jpg');
+    border: red solid 1px;
+    background-size: cover;
+    position: relative;
+  
+}
+.one{
+    height: 280px;
+    width: 280px;
+     /* border: yellow solid 1px; */
+    margin: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+.two{
+    height: 280px;
+    width: 280px;
+    /* border: yellow solid 1px;  */
+    margin: 10px;
+    overflow: hidden;
+    position:absolute;
+    right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.three{
+   
+    /* border: solid red 1px; */
+    margin: 2px;
+  
+}
+h1{
+    color: white;
+    padding-bottom: 0px;
+    padding-top:60px;
+    padding-right: 10px;
+    padding-left: 50px;
+}
+p{
+    color: white;
+    font-size: 10px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+button{
+    border-radius: 10px;
+    border:none;
+    height: 15px;
+    width:70px;
+    margin-left: 80px;
+    font-size: 10px;
+    }
+.image1{
+height: 100px;
+width: 100px;
+/* border: red solid 1px; */
+/* left: 10px; */
+margin: 10px;
+/* position: absolute; */
+background-image: url('./pic-1.png');
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+cursor: pointer;
+}
+.image2{
+    height: 100px;
+    width: 100px;
+    /* border: red solid 1px; */
+    margin: 10px; 
+    /*position: absolute;  */
+    /* right: 10px; */
+    background-image: url('./pic-2.png');
+    background-position: center;
+background-size: cover;
+border-radius: 10px;
+cursor: pointer;
+}
+.image3{
+    height: 100px;
+width: 100px;
+/* border: red solid 1px; */
+margin: 10px;/*
+position: absolute;
+left: 10px;
+bottom: 0px; */
+background-image: url('./pic-3.png');
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+cursor: pointer;
+}
+.image4{
+    height: 100px;
+width: 100px;
+/* border: red solid 1px; */
+ margin: 10px;/*
+position: absolute;
+right: 10px;
+bottom: 0px; */
+background-image: url('./pic-4.png');
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+cursor: pointer;
+}
+li{
+    float: left;
+    font-size: 10px;
+    
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    /* border: solid yellow 1px; */
+     padding-left: 350px; 
+    padding-right: 0px;
+    margin: 0;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h6{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.image1 p{
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 8px;
+}
+.image2 p{
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 8px;
+}
+.image3 p{
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 8px;
+}
+.image4 p{
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 8px;
+}
+img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* .fa-bars{
+    background: silver;
+    width: 22px;
+    height: 11px;
+    border-radius: 50%;
+    padding-top: 0px;
+} */
+.image1:hover{
+   transform: translate(-1px,-1px);
+}
+.image2:hover{
+    transform: translate(-1px,-1px);
+}
+.image3:hover{
+    transform: translate(-1px,-1px);
+}
+.image4:hover{
+    transform: translate(-1px,-1px);
+ }
+ /* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+
+     .parent0{
+         height:820px;
+         overflow: auto;
+     }
+     ul{
+         padding-left: 80px;
+     }
+     .one{
+         margin-top: 0px;
+     }
+     h1{
+         padding-top: 0px;
+     }
+     .one{
+         height: 150px;
+         position: absolute;
+         overflow: hidden;
+     }
+     .two{
+         flex-direction: column;
+         margin-top: 120px;
+         height: auto;
+         margin-left: 0px;
+         position: absolute;
+         left: 30px;
+     }
+     .image1{
+        height: 100px;
+        width: 250px;
+        /* border: red solid 1px; */
+        /* left: 10px; */
+        margin: 10px;
+        /* position: absolute; */
+        background-image: url('./pic-1.png');
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        .image2{
+            height: 100px;
+            width: 250px;
+            /* border: red solid 1px; */
+            margin: 10px; 
+            /*position: absolute;  */
+            /* right: 10px; */
+            background-image: url('./pic-2.png');
+            background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        .image3{
+            height: 100px;
+        width: 250px;
+        /* border: red solid 1px; */
+        margin: 10px;/*
+        position: absolute;
+        left: 10px;
+        bottom: 0px; */
+        background-image: url('./pic-3.png');
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        .image4{
+            height: 100px;
+        width: 250px;
+        /* border: red solid 1px; */
+         margin: 10px;/*
+        position: absolute;
+        right: 10px;
+        bottom: 0px; */
+        background-image: url('./pic-4.png');
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+ }
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+
+    .parent0{
+        height:1374px;
+        overflow: auto;
+    }
+    ul{
+        padding-left: 250px;
+    }
+    .one{
+        margin-top: 0px;
+        margin-left: 120px;
+        width: 590px;
+        height: auto;
+    }
+    .two{
+        flex-direction: column;
+        margin-top: 190px;
+        height: auto;
+        width: auto;
+        margin-left: 0px;
+        position: absolute;
+        left: 10px;
+    }
+    .image1{
+        height: 200px;
+        width: 720px;
+        /* border: red solid 1px; */
+        /* left: 10px; */
+        margin: 10px;
+        /* position: absolute; */
+        background-image: url('./pic-1.png');
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+       
+        }
+        .image2{
+            height: 200px;
+            width: 720px;
+            /* border: red solid 1px; */
+            margin: 10px; 
+            /*position: absolute;  */
+            /* right: 10px; */
+            background-image: url('./pic-2.png');
+            background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        .image3{
+            height: 200px;
+            width: 720px;
+        /* border: red solid 1px; */
+        margin: 10px;/*
+        position: absolute;
+        left: 10px;
+        bottom: 0px; */
+        background-image: url('./pic-3.png');
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        .image4{
+            height: 200px;
+            width: 720px;
+        /* border: red solid 1px; */
+         margin: 10px;/*
+        position: absolute;
+        right: 10px;
+        bottom: 0px; */
+        background-image: url('./pic-4.png');
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        p{
+            color: white;
+            font-size: 30px;
+            padding-left: 50px;
+            padding-top: 0px;
+        }
+        .image1 p{
+            text-align: left;
+            padding-left: 0px;
+            padding-top: 10px;
+            font-size: 25px;
+        }
+        .image2 p{
+            text-align: left;
+            padding-left: 0px;
+            padding-top: 10px;
+            font-size: 25px;
+        }
+        .image3 p{
+            text-align: left;
+            padding-left: 0px;
+            padding-top: 10px;
+            font-size: 25px;
+        }
+        .image4 p{
+            text-align: left;
+            padding-left: 0px;
+            padding-top: 10px;
+            font-size: 25px;
+        }
+        h6{
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 35px;
+        }
+        li{
+            font-size: 25px;
+        }
+        h1{
+            padding-top: 20px;
+        }
+        button{
+            border-radius: 10px;
+            border:none;
+            height: 35px;
+            width:100px;
+            margin-left: 80px;
+            font-size: 20px;
+            }
+}
+
